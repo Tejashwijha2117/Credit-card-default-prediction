@@ -24,3 +24,5 @@ data/processed/
 .env
 .env.*
 !.env.example
+
+!data/processed/scored_test.csv
