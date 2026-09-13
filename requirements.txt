@@ -1,0 +1,9 @@
+streamlit>=1.45
+pandas>=2.2
+numpy>=2.1
+plotly>=5.24
+imbalanced-learn>=0.13
+xgboost>=2.1
+lightgbm>=4.5
+shap>=0.46
+lime>=0.2.0.1

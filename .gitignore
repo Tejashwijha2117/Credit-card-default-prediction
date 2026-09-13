@@ -1,0 +1,26 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Generated project outputs
+data/processed/
+
+# macOS
+.DS_Store
+
+# Local editor and environment files
+.vscode/
+.env
+.env.*
+!.env.example
