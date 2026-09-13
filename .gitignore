@@ -1,28 +1,21 @@
-# Python virtual environments
-.venv/
-venv/
-env/
+# The raw .xls is re-downloadable from UCI; the converted CSV is committed so a
+# fresh clone runs the notebook without downloading anything.
+data/raw/*.xls
 
-# Python caches and build artifacts
+# python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-
-# Jupyter temporary files
 .ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
 
-# Generated project outputs
-data/processed/
+# Regenerable train/test splits - the notebook rebuilds these from the raw CSV
+data/processed/X_train.csv
+data/processed/X_test.csv
+data/processed/y_train.csv
+data/processed/y_test.csv
 
-# macOS
-.DS_Store
-
-# Local editor and environment files
-.vscode/
-.env
-.env.*
-!.env.example
-
-!data/processed/scored_test.csv
+# tooling / personal
+.claude/
+Interview_Prep_Credit_Default.pdf
