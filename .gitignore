@@ -19,3 +19,5 @@ data/processed/y_test.csv
 # tooling / personal
 .claude/
 Interview_Prep_Credit_Default.pdf
+
+.DS_Store
